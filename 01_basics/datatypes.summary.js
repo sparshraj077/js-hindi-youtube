@@ -61,6 +61,9 @@ anothername = "chaiaurcode"; // Only anothername is changed
 console.log(myYoutubename); // "Daily Motivation"
 console.log(anothername); // "chaiaurcode"
 
+
+// heap memory 
+
 let user1 ={
     email:"user@google.com",
     upi:"user@pay"
@@ -71,21 +74,21 @@ user2.email="jdishd@gmail.com"
 console.log(user2.email);
 console.log(user1.email);
 
-/*
-Stack primitive
-let a = 10;
-let b = a; // A COPY of 'a' is created
-b = 20;
 
-console.log(a); // 10 (original remains unchanged)
-console.log(b); // 20 (separate copy)
+//Stack primitive
+// let a = 10;
+// let b = a; // A COPY of 'a' is created
+// b = 20;
 
-// heap non -primitive
-let obj1 = { name: "Alice" };
-let obj2 = obj1; // obj2 gets a REFERENCE, not a copy
+// console.log(a); // 10 (original remains unchanged)
+// console.log(b); // 20 (separate copy)
 
-obj2.name = "Bob"; // Modifies the original object
+// // heap non -primitive
+// let obj1 = { name: "Alice" };
+// let obj2 = obj1; // obj2 gets a REFERENCE, not a copy
 
-console.log(obj1.name); // "Bob" (same object)
-console.log(obj2.name); // "Bob"
-*/
+// obj2.name = "Bob"; // Modifies the original object
+
+// console.log(obj1.name); // "Bob" (same object)
+// console.log(obj2.name); // "Bob"
+
