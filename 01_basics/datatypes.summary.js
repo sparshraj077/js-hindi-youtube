@@ -46,3 +46,46 @@ console.log(bigNumber)
 //non -primitive datatype
  // object , functions,array -> function 
  */
+
+ //  +++++++++++++++++++++++++++++++===
+ 
+ 
+// Stack Memory(primitive)
+// Heap Memory(Non-Primitive)-object ,array,functtion goes into  heap bcs it is non- primitive data type 
+
+let myYoutubename = "Daily Motivation";  
+
+let anothername = myYoutubename; // Value is copied (not reference)
+anothername = "chaiaurcode"; // Only anothername is changed
+
+console.log(myYoutubename); // "Daily Motivation"
+console.log(anothername); // "chaiaurcode"
+
+let user1 ={
+    email:"user@google.com",
+    upi:"user@pay"
+}
+let user2=user1
+
+user2.email="jdishd@gmail.com"
+console.log(user2.email);
+console.log(user1.email);
+
+/*
+Stack primitive
+let a = 10;
+let b = a; // A COPY of 'a' is created
+b = 20;
+
+console.log(a); // 10 (original remains unchanged)
+console.log(b); // 20 (separate copy)
+
+// heap non -primitive
+let obj1 = { name: "Alice" };
+let obj2 = obj1; // obj2 gets a REFERENCE, not a copy
+
+obj2.name = "Bob"; // Modifies the original object
+
+console.log(obj1.name); // "Bob" (same object)
+console.log(obj2.name); // "Bob"
+*/
