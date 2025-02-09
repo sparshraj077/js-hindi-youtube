@@ -29,4 +29,3 @@ function one ()
    // console.log(website);
     //two()
 }
-one()
