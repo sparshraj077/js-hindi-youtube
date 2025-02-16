@@ -3,6 +3,7 @@ let accountEmail="sparshraj077@gmail.com"
 var accountPassword=909090
 accountCity="jaipur"
 
+console.log(accountEmail)
 // accountId=2 not allowed its an constant 
 console.log(accountId);
 
